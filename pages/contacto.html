@@ -15,10 +15,132 @@
     <!-- Boostrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
-<body>
 
+<body class="bg-light">
 
+    <!-- header -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-warning">
+            <div class="container-fluid align-items-end p-0 m-0">
+            <a class="navbar-brand" href="../index.html"><img src="../img/logo400px.png" alt="Logo Cecil Pastelería" class="ps-2 w-25"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown" >
+                <ul class="navbar-nav w-75">
+                <li class="nav-item col-2 fs-6">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Incio</a>
+                </li>
+                <li class="nav-item col-2 fs-6">
+                    <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item dropdown col-2 fs-6">
+                    <a class="nav-link dropdown-toggle" href="../pages/productos.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="../pages/productos.html">Productos</a></li>
+                        <li><a class="dropdown-item" href="#">Pastelería</a></li>
+                        <li><a class="dropdown-item" href="#">Panificados</a></li>
+                        <li><a class="dropdown-item" href="#">Bollería francesa</a></li>
+                        <li><a class="dropdown-item" href="#">Alfajores y chocolatería</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item col-2 fs-6">
+                    <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item col-2 fs-6">
+                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
 
+    <!-- Intro -->
+    <div class="contairner-fluid">
+        <div class="card bg-dark text-white rounded-0">
+          <img src="../img/bg/portadaintro1200px.png" class="card-img" alt="Foto vitrina del local">
+          <div class="card-img-overlay row d-flex align-content-around">
+            <div class="bg-dark opacity-75">
+              <h5 class="text-center text-light fs-1 fw-bolder fst-italic p-2">Contacto</h5>
+            </div>      
+          </div>
+        </div>      
+    </div>
+
+    <!-- Contacto -->
+    <div class="container-fluid row justify-content-center bg-white py-4">
+        <h2 class="text-center pt-3 pb-2 fs-3">Contactate con nosotros</h2>
+        
+        <div class="col-6 col-sm-4">
+            <p class="text-justify">Dejanos tu mensaje por este medio o a través de nuestras redes. Muchas gracias!</p>           
+            <nav>                  
+                <ul>        
+                    <li>Tel: 011-55555555</li>
+                    <li> <!-- Aqui debe ir el link Whatsapp, aun no lo tengo -->
+                        <img src="../img/redes/whatsapp.png" alt="Whatsapp" width="24"> 011-55665222
+                    </li>                    
+                </ul>                   
+            </nav>
+
+            <h3 class="text-justify fs-4 pt-3 pb-2">Seguinos en nuestras redes</h3>
+        
+            <nav>                   
+                <ul>                        
+                    <li class="lh-lg">
+                        <a href="https://www.instagram.com/cecil_pasteleria/" target="_blank" class="text-reset text-decoration-none">
+                            <img src="../img/redes/Instagram.png" alt="Instagram" width="24"> Instagram
+                        </a>
+                    </li>                        
+                    <li class="lh-lg">
+                        <a href="https://www.facebook.com/CecilPasteleria/" target="_blank" class="text-reset text-decoration-none">
+                            <img src="../img/redes/facebook.png" alt="Facebook" width="24"> Facebook
+                        </a>
+                    </li>
+                </ul>                
+            </nav>
+        </div>
+
+        <div class="col-6 col-sm-4">
+            <form action="enviar.php" method="get">
+                <fieldset class="bg-light m-1 py-4 px-5 rounded">                        
+                    <div class="mb-3">
+                        <label for="exampleFormControlInput1" class="form-label">Nombre</label>
+                        <input type="First name" class="form-control" id="exampleFormControlInput1" placeholder="Nombre">
+                        <label for="exampleFormControlInput1" class="form-label">Email address</label>
+                        <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+                    </div>
+                    <div class="mb-3">
+                        <label for="exampleFormControlTextarea1" class="form-label">Mensaje</label>
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+                    </div>
+                    <button type="submit" class="btn btn-dark">Enviar</button>
+                </fieldset>
+
+            </form>
+        </div>
+    </div>
+
+    <!-- ubicación -->
+    <div class="container-fluid row justify-content-center py-4 bg-white">
+        <h2 class="text-center pt-3 pb-2">Dónde encontrarnos</h2> 
+        <div class="card col-8">
+          <div class="card-body">         
+            <p class="card-text fs-6 fst-italic">Encontranos en Sgto. Cabral N° 94, de Míercoles a Domingo de 9 a 13hs y de 16 a 20hs.</p>        
+          </div>
+          <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d13090.208046965412!2d-58.5623783!3d-34.8925942!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x28d9836b9e158835!2sCecil%20pasteler%C3%ADa!5e0!3m2!1ses-419!2sar!4v1656091362969!5m2!1ses-419!2sar" width="500" height="300" style="border:8;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" class="card-img-bottom"></iframe>
+        </div>
+    </div>   
+ 
+    <!-- Footer -->
+    <footer class="footer text-faded text-center bg-warning">
+        <nav class="container-fluid ">
+          <a href="../index.html"><img src="../img/logo400px.png" alt="logo footer" width="8%" height="auto" class="p-3"></a>
+        </nav>
+        <div class="container">
+          <p class="m-0 small p-2">Copyright &copy; Cecil Pastelería 2022</p>
+        </div>
+    </footer>
 
 <!-- script boostrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>       

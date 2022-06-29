@@ -16,14 +16,228 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 
 </head>
-<body>
+<body class="bg-light">
+    <!-- header -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-warning">
+            <div class="container-fluid align-items-end p-0 m-0">
+            <a class="navbar-brand" href="../index.html"><img src="../img/logo400px.png" alt="Logo Cecil Pastelería" class="ps-2 w-25"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown" >
+                <ul class="navbar-nav w-75">
+                <li class="nav-item col-2 fs-6">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Incio</a>
+                </li>
+                <li class="nav-item col-2 fs-6">
+                    <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item dropdown col-2 fs-6">
+                    <a class="nav-link dropdown-toggle" href="../pages/productos.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="../pages/productos.html">Productos</a></li>
+                        <li><a class="dropdown-item" href="#">Pastelería</a></li>
+                        <li><a class="dropdown-item" href="#">Panificados</a></li>
+                        <li><a class="dropdown-item" href="#">Bollería francesa</a></li>
+                        <li><a class="dropdown-item" href="#">Alfajores y chocolatería</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item col-2 fs-6">
+                    <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item col-2 fs-6">
+                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                </li>
+                </ul>
+            </div>
+            </div>
+        </nav>  
 
+    </header>
 
+    <!-- intro -->
+   
+    <div class="contairner-fluid">
+        <div class="card bg-dark text-white rounded-0">
+          <img src="../img/bg/portadaintro1200px.png" class="card-img" alt="Foto vitrina del local">
+          <div class="card-img-overlay row d-flex align-content-around">
+            <div class="bg-dark opacity-75">
+              <h5 class="text-center text-light fs-1 fw-bolder fst-italic p-2">Productos</h5>
+            </div>      
+          </div>
+        </div>      
+    </div>
 
+    
+    <!-- Productos -->
 
+    <div class="container-fluid pt-4 px-3">
+        <div class="row gx-5">
+            <div class="col-3">
+                <div class="p-3 border">
+                    <h3 class="fs-5 pt-3 pb-2">Categorías</h3>                
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item bg-light">Pastelería</li>
+                        <li class="list-group-item bg-light">Panificados</li>
+                        <li class="list-group-item bg-light">Bollería francesa</li>
+                        <li class="list-group-item bg-light">Alfajores y chocolatería</li>            
+                    </ul>
+                </div>
+            </div>
 
+            <div class="col">
+                <div class="p-3 border">
 
+                    <div>
+                        <h3 class="fs-4 pt-3 pb-2">Pastelería</h3> 
+    
+                        <div class="card-group">
+                            <div class="card">
+                              <img src="../img/productos/pasteleria/redvelvet.png" class="card-img-top" alt="REd velvet cake">
+                              <div class="card-body">
+                                <h5 class="card-title">Red velvet cake</h5>
+                                <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+                              </div>
+                            </div>
 
+                            <div class="card">
+                              <img src="../img/productos/pasteleria/tartatoffie.png" class="card-img-top" alt="Tarta toffie">
+                              <div class="card-body">
+                                <h5 class="card-title">Tarta toffie</h5>
+                                <!-- <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p> -->
+                              </div>
+                            </div>
+
+                            <div class="card">
+                              <img src="../img/productos/pasteleria/tortamatilda.png" class="card-img-top" alt="Torta matilda">
+                              <div class="card-body">
+                                <h5 class="card-title">Torta Matilda</h5>
+                                <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p> -->
+                              </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-center py-3">       
+                            <button type="button" class="btn btn-dark btn-lg">Ver más</button>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="fs-4 pt-3 pb-2">Panificados</h3> 
+    
+                        <div class="card-group">
+                            <div class="card">
+                              <img src="../img/productos/panificados/baguette_masamadre.png" class="card-img-top" alt="Baguette de masa madre">
+                              <div class="card-body">
+                                <h5 class="card-title">Baguette de masa madre</h5>
+                                <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+                              </div>
+                            </div>
+
+                            <div class="card">
+                              <img src="../img/productos/panificados/focaccia.png" class="card-img-top" alt="Focaccia">
+                              <div class="card-body">
+                                <h5 class="card-title">Focaccia</h5>
+                                <!-- <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p> -->
+                              </div>
+                            </div>
+
+                            <div class="card">
+                              <img src="../img/productos/panificados/panintegral_frutossecosymiel.png" class="card-img-top" alt="Pan integral con frutos secos y miel">
+                              <div class="card-body">
+                                <h5 class="card-title">Pan integral con frutos secos y miel</h5>
+                                <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p> -->
+                              </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-center py-3">       
+                            <button type="button" class="btn btn-dark btn-lg">Ver más</button>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="fs-4 pt-3 pb-2">Bollería francesa</h3> 
+    
+                        <div class="card-group">
+                            <div class="card">
+                              <img src="../img/productos/bolleria francesa/macarons2.png" class="card-img-top" alt="Macarons">
+                              <div class="card-body">
+                                <h5 class="card-title">Macarons</h5>
+                                <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+                              </div>
+                            </div>
+
+                            <div class="card">
+                              <img src="../img/productos/bolleria francesa/cinnamonrolls.png" class="card-img-top" alt="Rolls de canela">
+                              <div class="card-body">
+                                <h5 class="card-title">Cinammon rolls</h5>
+                                <!-- <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p> -->
+                              </div>
+                            </div>
+
+                            <div class="card">
+                              <img src="../img/productos/bolleria francesa/financiers.png" class="card-img-top" alt="Financiers">
+                              <div class="card-body">
+                                <h5 class="card-title">Financiers</h5>
+                                <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p> -->
+                              </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-center py-3">       
+                            <button type="button" class="btn btn-dark btn-lg">Ver más</button>
+                        </div>
+                    </div>
+
+                    <div>
+                        <h3 class="fs-4 pt-3 pb-2">Alfajores y chocolatería</h3> 
+    
+                        <div class="card-group">
+                            <div class="card">
+                              <img src="../img/productos/alfajores y chocolateria/alfajores_de_maicena.png" class="card-img-top" alt="Alfajores de maicena">
+                              <div class="card-body">
+                                <h5 class="card-title">Alfajores de maicena</h5>
+                                <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p> -->
+                              </div>
+                            </div>
+
+                            <div class="card">
+                              <img src="../img/productos/alfajores y chocolateria/bombones2.png" class="card-img-top" alt="Bombones corazón">
+                              <div class="card-body">
+                                <h5 class="card-title">Bombones amor</h5>
+                                <!-- <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p> -->
+                              </div>
+                            </div>
+
+                            <div class="card">
+                              <img src="../img/productos/alfajores y chocolateria/bombones3.png" class="card-img-top" alt="Bombones espejo">
+                              <div class="card-body">
+                                <h5 class="card-title">Bombones glass</h5>
+                                <!-- <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p> -->
+                              </div>
+                            </div>
+                        </div>
+
+                        <div class="d-flex justify-content-center py-3">       
+                            <button type="button" class="btn btn-dark btn-lg">Ver más</button>
+                        </div>
+                    </div>                    
+                </div>
+            </diSv>
+        </div>
+    </div>
+
+    <!-- Footer -->
+    <footer class="footer text-faded text-center bg-warning">
+        <nav class="container-fluid ">
+          <a href="../index.html"><img src="../img/logo400px.png" alt="logo footer" width="8%" height="auto" class="p-3"></a>
+        </nav>
+        <div class="container">
+          <p class="m-0 small p-2">Copyright &copy; Cecil Pastelería 2022</p>
+        </div>
+    </footer>
 <!-- script boostrap -->
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>       
 </body>
