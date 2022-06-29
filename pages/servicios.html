@@ -15,69 +15,152 @@
     <!-- Boostrap -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
 </head>
-<body>
-<!-- header -->
-<header>
-    <nav class="navbar navbar-expand-lg bg-warning">
-        <div class="container-fluid align-items-end p-0 m-0">
-        <a class="navbar-brand" href="../index.html"><img src="../img/logo400px.png" alt="Logo Cecil Pastelería" class="ps-2 w-25"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavDropdown" >
-            <ul class="navbar-nav w-75">
-            <li class="nav-item col-2 fs-6">
-                <a class="nav-link active" aria-current="page" href="../index.html">Incio</a>
-            </li>
-            <li class="nav-item col-2 fs-6">
-                <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
-            </li>
-            <li class="nav-item dropdown col-2 fs-6">
-                <a class="nav-link dropdown-toggle" href="../pages/productos.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
-                <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                    <li><a class="dropdown-item" href="../pages/productos.html">Productos</a></li>
-                    <li><a class="dropdown-item" href="#">Pastelería</a></li>
-                    <li><a class="dropdown-item" href="#">Panificados</a></li>
-                    <li><a class="dropdown-item" href="#">Bollería francesa</a></li>
-                    <li><a class="dropdown-item" href="#">Alfajores y chocolatería</a></li>
+
+<body class="bg-light">
+    <!-- header -->
+    <header>
+        <nav class="navbar navbar-expand-lg bg-warning">
+            <div class="container-fluid align-items-end p-0 m-0">
+            <a class="navbar-brand" href="../index.html"><img src="../img/logo400px.png" alt="Logo Cecil Pastelería" class="ps-2 w-25"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavDropdown" >
+                <ul class="navbar-nav w-75">
+                <li class="nav-item col-2 fs-6">
+                    <a class="nav-link active" aria-current="page" href="../index.html">Incio</a>
+                </li>
+                <li class="nav-item col-2 fs-6">
+                    <a class="nav-link" href="../pages/nosotros.html">Nosotros</a>
+                </li>
+                <li class="nav-item dropdown col-2 fs-6">
+                    <a class="nav-link dropdown-toggle" href="../pages/productos.html" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">Productos</a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="../pages/productos.html">Productos</a></li>
+                        <li><a class="dropdown-item" href="#">Pastelería</a></li>
+                        <li><a class="dropdown-item" href="#">Panificados</a></li>
+                        <li><a class="dropdown-item" href="#">Bollería francesa</a></li>
+                        <li><a class="dropdown-item" href="#">Alfajores y chocolatería</a></li>
+                    </ul>
+                </li>
+                <li class="nav-item col-2 fs-6">
+                    <a class="nav-link" href="../pages/servicios.html">Servicios</a>
+                </li>
+                <li class="nav-item col-2 fs-6">
+                    <a class="nav-link" href="../pages/contacto.html">Contacto</a>
+                </li>
                 </ul>
-            </li>
-            <li class="nav-item col-2 fs-6">
-                <a class="nav-link" href="../pages/servicios.html">Servicios</a>
-            </li>
-            <li class="nav-item col-2 fs-6">
-                <a class="nav-link" href="../pages/contacto.html">Contacto</a>
-            </li>
-            </ul>
+            </div>
+            </div>
+        </nav>
+    </header>
+
+    <!-- Intro -->
+    <div class="contairner-fluid">
+        <div class="card bg-dark text-white rounded-0">
+        <img src="../img/bg/portadaintro1200px.png" class="card-img" alt="Foto vitrina del local">
+        <div class="card-img-overlay row d-flex align-content-around">
+            <div class="bg-dark opacity-75">
+            <h5 class="text-center text-light fs-1 fst-italic p-2">Servicios</h5>
+            </div>      
         </div>
-        </div>
-    </nav>  
-
-</header>
-
-<!-- Sección Nuestra filosofía -->
-
-
-
-<!-- Sección Quiénes somos -->
-
-
-<!-- Footer -->
-<footer class="footer text-faded text-center bg-warning">
-    <nav class="container-fluid ">
-      <a href="../index.html"><img src="../img/logo400px.png" alt="logo footer" width="8%" height="auto" class="p-3"></a>
-    </nav>
-    <div class="container">
-      <p class="m-0 small p-2">Copyright &copy; Cecil Pastelería 2022</p>
+        </div>      
     </div>
-</footer>
+
+    <!-- Servicios -->
+
+    <div class="container py-4 px-4">
+        <h3 class="fs-4 pt-3 pb-2">Nuestras propuestas</h3>
+
+        <div class="row gx-5">
+
+          <div class="col">
+            <div class="p-3 border bg-light">
+                <!-- Servicio 1 -->
+                <div class="card mb-3 col-fluid">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="../img/Servicios/delivery_takeaway.webp" class="img-fluid rounded-start" alt="Foto take away & delivery">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Take away & delivery</h5>
+                          <p class="card-text">Queremos que sea fácil llegar a nuestros productos, por eso tenemos dos modalidades para que puedas disfrutar de ellos. Take away, para que puedas pedir lo que quieras y pasar a buscarlo por la sucursal. También, hacemos delivery en GBA zona sur. Consultar stock previamente.</p>                        
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+                <!-- Servicio 2 -->
+                <div class="card mb-3 col-fluid">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="../img/Servicios/mesas dulces/mesadulce3.png" class="img-fluid rounded-start" alt="Foto mesa dulce">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Mesa dulce</h5>
+                          <p class="card-text">En Cecil tenemos una gran variedad de propuestas para tu Mesa dulce, nuestros profesionales pueden ayudarte a realizar tus ideas de la mejor forma posible y lo más importante, con saboes unicos. Asesoramos y realizamos presupuesto sin cargo.</p>                        
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+                <!-- Servicio 3 -->
+                <div class="card mb-3 col-fluid">
+                    <div class="row g-0">
+                      <div class="col-md-4">
+                        <img src="../img/Servicios/catering/cateringeventos1.png" class="img-fluid rounded-start" alt="Foto catering de eventos">
+                      </div>
+                      <div class="col-md-8">
+                        <div class="card-body">
+                          <h5 class="card-title">Catering para eventos</h5>
+                          <p class="card-text">Queremos acompñarte en todos tus momentos, es por eso que brindamos servicio de catering para grandes y pequeños eventos. Como siempre te asosoramos y acompañamos en cada paso, para que todo salga perfecto. Tenemos diferentes propuestas, contactanos.</p>                        
+                        </div>
+                      </div>
+                    </div>
+                </div>
+
+            </div>
+          </div>
+          
+          <div class="col-4">
+            <div class="d-flex align-items-center p-5 border bg-light vh-100">
+                <!-- Contacto -->
+                <div class="card mb-3 p-4 bg-warning">
+                    <img src="../img/logo400px.png" class="card-img-top p-5" alt="Logo Cecil">
+                    <div class="card-body">
+                        <div class="d-flex justify-content-center py-3">       
+                            <button type="button" class="btn btn-dark">CONTACTANOS</button>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+          </div>
+
+        </div>
+    </div>
 
 
 
 
-    
+    <!-- Footer -->
+    <footer class="footer text-faded text-center bg-warning">
+        <nav class="container-fluid ">
+        <a href="../index.html"><img src="../img/logo400px.png" alt="logo footer" width="8%" height="auto" class="p-3"></a>
+        </nav>
+        <div class="container">
+        <p class="m-0 small p-2">Copyright &copy; Cecil Pastelería 2022</p>
+        </div>
+    </footer>
 
-<!-- script boostrap -->
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>       
+
+
+
+        
+
+    <!-- script boostrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>       
 </body>
 </html>
